@@ -1,0 +1,21 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+
+      a {
+        color: $color_link;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

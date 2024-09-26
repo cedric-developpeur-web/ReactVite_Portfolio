@@ -1,0 +1,23 @@
+#skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin: 30px 0px 30px 0px;
+    color: $color_h2;
+  }
+
+  .posi_skills {
+    display: flex;
+    // flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+// version tablette
+// @media screen and (min-width:767px) {
+
+// }
