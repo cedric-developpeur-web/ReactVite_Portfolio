@@ -20,8 +20,31 @@
       border: solid 2px $color_border;
       object-fit: cover;
     }
+
+    .posi_button {
+      display: flex;
+      justify-content: center;
+
+      button {
+        position: relative;
+        bottom: 30px;
+        border-radius: 3px;
+        border: transparent;
+        background-color: $color_button;
+        color: $color_text;
+
+        .fa-arrow-up-right-from-square {
+          margin-left: 5px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
   }
 }
+
 
 // version tablette
 @media screen and (min-width:767px) {
