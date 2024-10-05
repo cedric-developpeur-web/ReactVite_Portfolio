@@ -1,7 +1,17 @@
 nav {
+  .posi_drapeau {
+    position: fixed;
+    left: 15px;
+    top: 14px;
+
+    .drap_fr {
+      margin-right: 20px;
+    }
+  }
+
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     li {
       list-style: none;
@@ -15,6 +25,37 @@ nav {
           text-decoration: underline;
           cursor: pointer;
         }
+      }
+    }
+  }
+}
+
+// version tablette
+@media screen and (min-width:767px) {
+  nav {
+    .posi_drapeau {
+      position: fixed;
+      left: 40px;
+      top: 14px;
+
+      .drap_fr {
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+
+// version desktop
+@media screen and (min-width:1024px) {
+  nav {
+    .posi_drapeau {
+      position: fixed;
+      left: 60px;
+      top: 14px;
+
+      .drap_fr {
+        margin-right: 60px;
       }
     }
   }
