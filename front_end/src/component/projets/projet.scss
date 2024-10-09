@@ -33,12 +33,12 @@
         background-color: $color_button;
         color: $color_text;
 
+        &:hover {
+          cursor: pointer;
+        }
+
         .fa-arrow-up-right-from-square {
           margin-left: 5px;
-
-          &:hover {
-            cursor: pointer;
-          }
         }
       }
     }

@@ -11,9 +11,18 @@
       "description":"My skills"
     },
     "projets":{
-      "description":"My Projects",
-      "title1":"Javascript Sophie Bluel",
-      "title2":"React Kasa",
-      "title3":"React with Vite ArgentBank"
+      "description":"Mes Projets",
+    "item1":{
+      "id":1,
+      "title1":"Javascript Sophie Bluel"
+    },
+    "item2":{
+      "id":2,
+      "title2":"React Kasa"
+    },
+    "item3":{
+      "id":3,
+      "title3":"React avec Vite ArgentBank"
+    }
     }
   }
