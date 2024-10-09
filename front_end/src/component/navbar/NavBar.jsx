@@ -1,4 +1,5 @@
 import React from 'react';
+import tradFr from '../../../public/traductor/fr.json';
 
 const NavBar = () => {
   const drapeauFrance = '../../assets/france.png';
@@ -12,9 +13,9 @@ const NavBar = () => {
           <img src={drapeauAnglais} alt="icone du drapeau anglais" />
         </div>
         <ul>
-          <li><a href="#profile">Profile</a></li>
-          <li><a href='#projets'>Mes Projets</a></li>
-          <li><a href='#contact'>Contact</a></li>
+          <li><a href="#profile">{tradFr.navbar.title1}</a></li>
+          <li><a href='#projets'>{tradFr.navbar.title2}</a></li>
+          <li><a href='#contact'>{tradFr.navbar.title3}</a></li>
         </ul>
       </nav>
     </header>

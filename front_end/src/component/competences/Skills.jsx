@@ -1,4 +1,5 @@
 import React from 'react';
+import comp from '../../../public/traductor/fr.json';
 
 const Skills = () => {
   const logoJs = '../../assets/logo_javascript.webp';
@@ -6,7 +7,8 @@ const Skills = () => {
   const logoVite = '../../assets/logo_vitejs.webp';
   return (
     <section id='skill'>
-      <h2>Mes Compétences</h2>
+      {/* <h2>Mes Compétences</h2> */}
+      <h2>{comp.competence.description}</h2>
       <div className='posi_skills'>
         <img src={logoJs} alt="logo javascript" />
         <img src={logoReact} alt="logo nodejs" />

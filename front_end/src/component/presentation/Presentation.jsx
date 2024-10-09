@@ -1,4 +1,5 @@
 import React from 'react';
+import pres from '../../../public/traductor/fr.json';
 
 const Presentation = () => {
   const profile = '../../assets/Profile.webp';
@@ -6,10 +7,7 @@ const Presentation = () => {
     <div id='profile' className='prestation'>
       <img src={profile} alt="photo de profile du développer cedric" />
       <div className='descript'>
-        <p>Je m’appelle Cédric, âgé de 27 ans,
-          j’ai effectué un parcours de formation professionnelle d’une durée de 1 an dans le domaine du développement web
-          pour le poste de développeur front end.
-        </p>
+        <p>{pres.presentation.description}</p>
       </div>
     </div>
   );

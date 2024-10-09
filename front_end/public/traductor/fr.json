@@ -1,22 +1,15 @@
-[
   {
     "navbar":{
       "title1": "Profile",
       "title2": "Mes Projets",
       "title3": "Contact"
-    }
-  },
-  {
+    },
     "presentation":{
      "description": "Je m’appelle Cédric, âgé de 27 ans, j’ai effectué un parcours de formation professionnelle d’une durée de 1 an dans le domaine du développement web pour le poste de développeur front end." 
-    }
-  },
-  {
+    },
     "competence":{
       "description":"Mes Compétences"
-    }
-  },
-  {
+    },
     "projets":{
       "description":"Mes Projets",
       "title1":"Javascript Sophie Bluel",
@@ -24,4 +17,3 @@
       "title3":"React avec Vite ArgentBank"
     }
   }
-]
