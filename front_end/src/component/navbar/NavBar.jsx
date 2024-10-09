@@ -2,8 +2,8 @@ import React from 'react';
 import tradFr from '../../../public/traductor/fr.json';
 
 const NavBar = () => {
-  const drapeauFrance = '../../assets/france.png';
-  const drapeauAnglais = '../../assets/royaume-uni.png';
+  const drapeauFrance = '../../assets/france.webp';
+  const drapeauAnglais = '../../assets/royaume-uni.webp';
 
   return (
     <header>

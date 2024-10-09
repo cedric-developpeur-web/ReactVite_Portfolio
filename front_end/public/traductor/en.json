@@ -1,22 +1,15 @@
-[
   {
     "navbar":{
       "title1": "Profile",
       "title2": "My Projects",
       "title3": "Contact"
-    }
-  },
-  {
+    },
     "presentation":{
      "description": "My name is Cédric, I'm 27 years old and I've completed a 1-year vocational training course in web development to become a front-end developer." 
-    }
-  },
-  {
+    },
     "competence":{
       "description":"My skills"
-    }
-  },
-  {
+    },
     "projets":{
       "description":"My Projects",
       "title1":"Javascript Sophie Bluel",
@@ -24,4 +17,3 @@
       "title3":"React with Vite ArgentBank"
     }
   }
-]
