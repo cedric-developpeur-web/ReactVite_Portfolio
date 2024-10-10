@@ -1,5 +1,5 @@
 import React from 'react';
-import proj from '../../../public/traductor/fr.json';
+import proj from '../../traductor/fr.json';
 import { useNavigate } from 'react-router-dom';
 
 const Projets = () => {

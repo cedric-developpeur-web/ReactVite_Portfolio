@@ -1,5 +1,5 @@
 import React from 'react';
-import comp from '../../../public/traductor/fr.json';
+import comp from '../../traductor/fr.json';
 
 const Skills = () => {
   const logoJs = '../../assets/logo_javascript.webp';

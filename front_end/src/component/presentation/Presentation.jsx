@@ -1,5 +1,5 @@
 import React from 'react';
-import pres from '../../../public/traductor/fr.json';
+import pres from '../../traductor/fr.json';
 
 const Presentation = () => {
   const profile = '../../assets/Profile.webp';

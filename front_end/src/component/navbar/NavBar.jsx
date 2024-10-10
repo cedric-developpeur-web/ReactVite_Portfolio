@@ -1,5 +1,5 @@
 import React from 'react';
-import tradFr from '../../../public/traductor/fr.json';
+import tradFr from '../../traductor/fr.json';
 
 const NavBar = () => {
   const drapeauFrance = '../../assets/france.webp';
