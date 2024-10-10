@@ -1,14 +1,16 @@
 import React from 'react';
-import comp from '../../traductor/fr.json';
+import { useTranslation } from 'react-i18next';
+import '../../traduction_i18next/i18next';
+import logoJs from '../../assets/logo_javascript.webp';
+import logoReact from '../../assets/React_Native_Logo.webp';
+import logoVite from '../../assets/logo_vitejs.webp';;
 
 const Skills = () => {
-  const logoJs = '../../assets/logo_javascript.webp';
-  const logoReact = '../../assets/React_Native_Logo.webp';
-  const logoVite = '../../assets/logo_vitejs.webp';
+  const { t } = useTranslation();
+  ;
   return (
     <section id='skill'>
-      {/* <h2>Mes Compétences</h2> */}
-      <h2>{comp.competence.description}</h2>
+      <h2>{t('competence.description')}</h2>
       <div className='posi_skills'>
         <img src={logoJs} alt="logo javascript" />
         <img src={logoReact} alt="logo nodejs" />

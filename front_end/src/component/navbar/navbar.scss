@@ -4,6 +4,10 @@ nav {
     left: 15px;
     top: 14px;
 
+    :hover {
+      cursor: pointer;
+    }
+
     .drap_fr {
       margin-right: 20px;
     }

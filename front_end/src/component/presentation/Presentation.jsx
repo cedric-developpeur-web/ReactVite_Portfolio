@@ -1,13 +1,15 @@
 import React from 'react';
-import pres from '../../traductor/fr.json';
+import { useTranslation } from 'react-i18next';
+import '../../traduction_i18next/i18next';
+import profile from '../../assets/Profile.webp';
 
 const Presentation = () => {
-  const profile = '../../assets/Profile.webp';
+  const { t } = useTranslation();
   return (
     <div id='profile' className='prestation'>
       <img src={profile} alt="photo de profile du développer cedric" />
       <div className='descript'>
-        <p>{pres.presentation.description}</p>
+        <p>{t('presentation.description')}</p>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
+import techJavascript from '../../assets/logo_javascript.webp';
+import techHtml from '../../assets/logo_html.webp';
 const Structure = () => {
-  const techJavascript = '../../../public/assets/logo_javascript.webp';
-  const techHtml = '../../../public/assets/logo_html.webp';
   return (
     <>
       <section className='structure'>
