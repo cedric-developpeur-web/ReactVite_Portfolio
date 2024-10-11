@@ -13,16 +13,53 @@
     "projets":{
       "description":"Mes Projets",
     "item1":{
-      "id":1,
-      "title1":"Javascript Sophie Bluel"
+      "id":"cv1njdn",
+      "title":"Javascript Sophie Bluel",
+      "tag":"Sophie Bluel",
+      "picture": [
+        {
+         "src": "../../assets/logo_javascript.webp",
+         "alt": "Logo Javascript"
+        },
+        {
+         "src": "../../assets/logo_html.webp",
+         "alt": "Logo Html"
+        }
+      ]
     },
     "item2":{
-      "id":2,
-      "title2":"React Kasa"
+      "id":"fds2fsj",
+      "title":"React Kasa",
+       "tag":"Kasa",
+      "picture": [
+           {
+         "src": "../../assets/logo_javascript.webp",
+         "alt": "Logo Javascript"
+        },
+        {
+         "src": "../../assets/React_Native_Logo.webp",
+         "alt": "Logo React Native"
+        }
+      ]
     },
     "item3":{
-      "id":3,
-      "title3":"React avec Vite ArgentBank"
+      "id":"fds3gfs",
+      "title":"React avec Vite ArgentBank",
+       "tag":"ArgenBank",
+       "picture": [
+        {
+         "src": "../../assets/logo_javascript.webp",
+         "alt": "Logo Javascript"
+        },
+        {
+         "src":"../../assets/React_Native_Logo.webp",
+         "alt":"Logo React Native"
+        },
+        {
+          "src": "../../assets/logo_vitejs.webp",
+          "alt": "Logo Builder Vite"
+        }
+      ]
     }
     }
   }

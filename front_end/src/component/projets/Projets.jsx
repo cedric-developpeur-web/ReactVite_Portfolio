@@ -22,19 +22,19 @@ const Projets = () => {
         <div>
           <img src={sophieBluel} alt="image du projet sophie bluel javascript" />
           <div className='posi_button'>
-            <button onClick={() => redi(t('projets.item1.id'))}>{t('projets.item1.title1')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+            <button onClick={() => redi(t('projets.item1.id'))}>{t('projets.item1.title')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
           </div>
         </div>
         <div>
           <img src={kasa} alt="image du projet kasa react avec cra" />
           <div className='posi_button'>
-            <button onClick={() => redi(t('projets.item2.id'))}>{t('projets.item2.title2')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+            <button onClick={() => redi(t('projets.item2.id'))}>{t('projets.item2.title')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
           </div>
         </div>
         <div>
           <img src={argentBank} alt="image du projet argent bank react avec vite" />
           <div className='posi_button'>
-            <button onClick={() => redi(t('projets.item3.id'))}>{t('projets.item3.title3')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+            <button onClick={() => redi(t('projets.item3.id'))}>{t('projets.item3.title')}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
           </div>
         </div>
       </div>
