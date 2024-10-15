@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../../traduction_i18next/i18next';
-import drapeauFrance from '../../assets/france.webp';
-import drapeauAnglais from '../../assets/royaume-uni.webp';
 
 const NavBar = () => {
 
@@ -16,8 +14,8 @@ const NavBar = () => {
     <header>
       <nav>
         <div className='posi_drapeau'>
-          <img onClick={() => changeLanguage('fr')} className='drap_fr' src={drapeauFrance} alt="icone du drapeau français" />
-          <img onClick={() => changeLanguage('en')} src={drapeauAnglais} alt="icone du drapeau anglais" />
+          <img onClick={() => changeLanguage('fr')} className='drap_fr' src='/assets/france.webp' alt="icone du drapeau français" />
+          <img onClick={() => changeLanguage('en')} src='/assets/royaume-uni.webp' alt="icone du drapeau anglais" />
         </div>
         <ul>
           <li><a href="#profile">{t('navbar.title1')}</a></li>

@@ -10,19 +10,22 @@
     "competence":{
       "description":"My skills"
     },
-    "projets":{
-      "description":"Mes Projets",
+   "projets":{
+      "description":"My Projects",
     "item1":{
       "id":"cv1njdn",
       "title":"Javascript Sophie Bluel",
       "tag":"Sophie Bluel",
+      "next":"Back to projects",
+      "link":"projet link github",
+      "information":"Hello everyone, I'm with you all the way",
       "picture": [
         {
-         "src": "../../assets/logo_javascript.webp",
+         "src": "/assets/logo_javascript.webp",
          "alt": "Logo Javascript"
         },
         {
-         "src": "../../assets/logo_html.webp",
+         "src": "/assets/logo_html.webp",
          "alt": "Logo Html"
         }
       ]
@@ -30,14 +33,17 @@
     "item2":{
       "id":"fds2fsj",
       "title":"React Kasa",
-       "tag":"Kasa",
+      "tag":"Kasa",
+      "next":"Back to projects",
+      "link":"project link github",
+      "information":"Hello everyone, I'm with you all the way",
       "picture": [
            {
-         "src": "../../assets/logo_javascript.webp",
+         "src": "/assets/logo_javascript.webp",
          "alt": "Logo Javascript"
         },
         {
-         "src": "../../assets/React_Native_Logo.webp",
+         "src": "/assets/React_Native_Logo.webp",
          "alt": "Logo React Native"
         }
       ]
@@ -45,18 +51,21 @@
     "item3":{
       "id":"fds3gfs",
       "title":"React avec Vite ArgentBank",
-       "tag":"ArgenBank",
-       "picture": [
+      "tag":"ArgenBank",
+      "next":"Back to projects",
+      "link":"project link github",
+      "information":"Hello everyone, I'm with you all the way",
+      "picture": [
         {
-         "src": "../../assets/logo_javascript.webp",
+         "src": "/assets/logo_javascript.webp",
          "alt": "Logo Javascript"
         },
         {
-         "src":"../../assets/React_Native_Logo.webp",
+         "src":"/assets/React_Native_Logo.webp",
          "alt":"Logo React Native"
         },
         {
-          "src": "../../assets/logo_vitejs.webp",
+          "src": "/assets/logo_vitejs.webp",
           "alt": "Logo Builder Vite"
         }
       ]
