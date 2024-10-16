@@ -42,6 +42,10 @@ const Structure = () => {
   const redi = () => {
     navigate('/');
   };
+
+  const redirection = () => {
+    window.location.href = annonce.weblink;
+  };
   return (
     <>
       <section className='structure'>
@@ -62,7 +66,7 @@ const Structure = () => {
           {logoImage(annonce.picture)}
         </div>
         <div className='posi_btn'>
-          <button><i className="fa-brands fa-github"></i>{t(`projets.${key}.link`)}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+          <button onClick={redirection}><i className="fa-brands fa-github"></i>{t(`projets.${key}.link`)}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
         </div>
       </section>
     </>

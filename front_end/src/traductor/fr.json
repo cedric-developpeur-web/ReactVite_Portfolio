@@ -18,21 +18,22 @@
       "tag":"Sophie Bluel",
       "next":"Retour aux projets",
       "link":"lien projet github",
-      "information":"bonjour a tous je suis bien avec vous",
+      "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
+      "information":"Je vous présente le projet Sophie Bluel avec une briève introduction qui décrit le but du site Internet développé pour la photographe freelance Nina Carducci. Le site internet propose l’ajout de photographies en affichant une galerie par catégorie des images mises sur son site, cela permet au utilisateur de se connecter à leur compte pour mettre en avant leur propre galerie des photographies qu’ils ont prises, mais il propose aussi la suppression de leur photographie pour mieux alimenter et garantir une meilleure gestion du travail, il peut ainsi les ajouter aux catégories présélectionnées qui leur sont proposées pour une meilleure organisation et visibilité de leur réalisation.",
       "image":[
         {
          "src": "/assets/accueil_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Image du site internet de Nina Carducci photographe freelance."
         }
       ],
       "images":[
         {
          "src": "/assets/galerie_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Affichage de la galerie d'images de la photographe."
         },
          {
          "src": "/assets/ajout_photo_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Image qui montre qu'on peut ajouter des images au format JGP et PNG d'une taille de 4 Mo maximum."
         }
       ],
       "picture": [
@@ -52,21 +53,22 @@
       "tag":"Kasa",
       "next":"Retour aux projets",
       "link":"lien projet github",
-      "information":"bonjour a tous je suis bien avec vous",
+      "weblink":"https://github.com/cedric-developpeur-web/ReactNative_Kasa",
+      "information":"Je vous présente le projet Kasa avec une briève introduction qui décrit le but du site Internet développé pour une agence de location de logement. Ce site propose des locations de logements près de chez les clients et bien plus encore. Quand on sélectionne un logement, on se retrouve rediriger sur une page où on nous présente le logement en proposant des images de celui-ci dans un slider, on peut aussi retrouver sa localité exacte du logement avec une description de ce qui est autour du logement (exemple : où se trouve le métro le plus proche, le magasin ou restaurant en indiquant les distances…), nous retrouvons aussi la note attribuée à ce logement : on peut savoir les équipements que possède ce logement exemple : frigo, wifi...",
       "image":[
         {
          "src": "/assets/accueil_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image montrant la page d’accueil du site internet Kasa qui montrent les logements à côté de chez vous."
         }
       ],
       "images":[
         {
          "src": "/assets/information_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image qui montre les détails des critères de fiabilité des annonces proposées."
         },
          {
          "src": "/assets/logement_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image montrant le logement choisi avec toutes les informations nécessaires comme un slider d’image, les notes attribuées par les clients, les équipements que dispose ce logement et sa localité."
         }
       ],
       "picture": [
@@ -86,21 +88,23 @@
       "tag":"ArgenBank",
       "next":"Retour aux projets",
       "link":"lien projet github",
-      "information":"bonjour a tous je suis bien avec vous",
+      "weblink":"https://github.com/cedric-developpeur-web/ReactVite_ArgentBank",
+      "information":"Je vous présente le projet ArgentBank avec une briève introduction qui décrit le but du site Internet développé pour une agence bancaire, traduit en anglais. Elle propose à ces clients de se connecter à leur compte et les clients peuvent modifier leur pseudo uniquement grâce à un formulaire d’édition qui permet de modifier ou d’annuler le pseudo. Ils pourront aussi visualiser les différents soldes sur leur compte.",
       "image":[
         {
          "src": "/assets/accueil_argentbank.webp",
-         "alt": "Logo Html"
+         "alt": "Image montrant le site d’une agence bancaire traduite en anglais."
         }
       ],
       "images":[
         {
          "src": "/assets/formulaire_argentbank.webp",
-         "alt": "Logo Html"
+         "alt": "Image montrant un formulaire où l’on peut modifier le pseudo donnée de votre espace client avec les différents solde que le client possède."
         },
          {
          "src": "/assets/login_argentbank.webp",
-         "alt": "Logo Html"        }
+         "alt": "Image montrant l’interface de connexion pour que l’utilisateur se connecte en rentrant un e-mail et un mot de passe."
+         }
       ],
       "picture": [
         {

@@ -18,21 +18,22 @@
       "tag":"Sophie Bluel",
       "next":"Back to projects",
       "link":"project link github",
-      "information":"Hello everyone, I'm with you all the way",
+       "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
+      "information":"Let me introduce you to the Sophie Bluel project with a brief introduction describing the purpose of the website developed for freelance photographer Nina Carducci. The website allows users to add photographs by displaying a gallery by category of the images they have uploaded to the site. This allows users to log in to their account to showcase their own gallery of photographs they have taken, but it also allows them to delete their photographs for better management of their work and to add them to the pre-selected categories offered to them for better organisation and visibility of their work.",
        "image":[
         {
          "src": "/assets/accueil_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Image from the website of Nina Carducci, freelance photographer."
         }
       ],
       "images":[
         {
          "src": "/assets/galerie_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Displays the photographer's image gallery."
         },
          {
          "src": "/assets/ajout_photo_sophiebluel.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing that you can add images in JGP and PNG format up to 4 MB in size."
         }
       ],
       "picture": [
@@ -52,21 +53,22 @@
       "tag":"Kasa",
       "next":"Back to projects",
       "link":"project link github",
-      "information":"Hello everyone, I'm with you all the way",
+      "weblink":"https://github.com/cedric-developpeur-web/ReactNative_Kasa",
+      "information":"I'd like to introduce you to the Kasa project with a brief introduction describing the purpose of the website developed for an accommodation rental agency. The site offers accommodation for rent close to the customer's home, and much more besides. When you select an accommodation, you're redirected to a page where the accommodation is presented with images of it in a slider, you can also find the exact location of the accommodation with a description of what's around the accommodation (example: where's the nearest metro station, the nearest shop or restaurant, indicating the distances...), you can also find the rating given to the accommodation: you can find out what equipment the accommodation has, for example: fridge, wifi...",
       "image":[
         {
          "src": "/assets/accueil_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing the home page of the Kasa website, which shows accommodation near you."
         }
       ],
       "images":[
         {
          "src": "/assets/information_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing details of the reliability criteria for the ads on offer."
         },
          {
          "src": "/assets/logement_kasa.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing the chosen accommodation with all the necessary information, such as an image slider, customer ratings, the facilities available in the accommodation and its location."
         }
       ],
       "picture": [
@@ -86,21 +88,21 @@
       "tag":"ArgenBank",
       "next":"Back to projects",
       "link":"project link github",
-      "information":"Hello everyone, I'm with you all the way",
+      "information":"Let me introduce you to the ArgentBank project with a brief introduction describing the purpose of the website developed for a bank branch, translated into English. It allows customers to log in to their account and customers can only change their nickname using an edit form that allows them to change or cancel the nickname. They can also view the various balances on their account.",
        "image":[
         {
          "src": "/assets/accueil_argentbank.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing a bank branch website translated into English."
         }
       ],
       "images":[
         {
          "src": "/assets/formulaire_argentbank.webp",
-         "alt": "Logo Html"
+         "alt": "Image showing a form where you can change the username given in your customer area with the different balances that the customer has."
         },
          {
          "src": "/assets/login_argentbank.webp",
-         "alt": "Logo Html"        }
+         "alt": "Image showing the login interface so that users can log in by entering an e-mail address and a password."        }
       ],
       "picture": [
         {
