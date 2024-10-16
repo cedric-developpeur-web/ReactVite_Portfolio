@@ -19,6 +19,22 @@
       "next":"Retour aux projets",
       "link":"lien projet github",
       "information":"bonjour a tous je suis bien avec vous",
+      "image":[
+        {
+         "src": "/assets/accueil_sophiebluel.webp",
+         "alt": "Logo Html"
+        }
+      ],
+      "images":[
+        {
+         "src": "/assets/galerie_sophiebluel.webp",
+         "alt": "Logo Html"
+        },
+         {
+         "src": "/assets/ajout_photo_sophiebluel.webp",
+         "alt": "Logo Html"
+        }
+      ],
       "picture": [
         {
          "src": "/assets/logo_javascript.webp",
@@ -37,6 +53,22 @@
       "next":"Retour aux projets",
       "link":"lien projet github",
       "information":"bonjour a tous je suis bien avec vous",
+      "image":[
+        {
+         "src": "/assets/accueil_kasa.webp",
+         "alt": "Logo Html"
+        }
+      ],
+      "images":[
+        {
+         "src": "/assets/information_kasa.webp",
+         "alt": "Logo Html"
+        },
+         {
+         "src": "/assets/logement_kasa.webp",
+         "alt": "Logo Html"
+        }
+      ],
       "picture": [
            {
          "src": "/assets/logo_javascript.webp",
@@ -55,6 +87,21 @@
       "next":"Retour aux projets",
       "link":"lien projet github",
       "information":"bonjour a tous je suis bien avec vous",
+      "image":[
+        {
+         "src": "/assets/accueil_argentbank.webp",
+         "alt": "Logo Html"
+        }
+      ],
+      "images":[
+        {
+         "src": "/assets/formulaire_argentbank.webp",
+         "alt": "Logo Html"
+        },
+         {
+         "src": "/assets/login_argentbank.webp",
+         "alt": "Logo Html"        }
+      ],
       "picture": [
         {
          "src": "/assets/logo_javascript.webp",

@@ -11,6 +11,10 @@
       border: transparent;
       border-radius: 5px;
 
+      &:hover {
+        cursor: pointer;
+      }
+
       i {
         margin-right: 5px;
       }
@@ -21,7 +25,7 @@
     display: flex;
 
     img {
-      width: 100%;
+      width: 370px;
       height: 200px;
       border-radius: 5px;
       background-color: #fff;
@@ -33,7 +37,7 @@
     gap: 10px;
 
     img {
-      width: 100%;
+      width: 180px;
       height: 200px;
       border-radius: 5px;
       background-color: #fff;
@@ -60,9 +64,14 @@
       border-radius: 10px;
       height: 30px;
 
+      &:hover {
+        cursor: pointer;
+      }
+
       .fa-github {
         margin-right: 5px;
         font-size: 15px;
+
       }
 
       i {
@@ -70,4 +79,61 @@
       }
     }
   }
+}
+
+// version tablette
+@media screen and (min-width:767px) {
+  .structure .posi_div_princial {
+    display: flex;
+
+    img {
+      width: 708px;
+      height: 300px;
+    }
+  }
+
+  .structure .posi_div_secondaire {
+    img {
+      width: 349px;
+      height: 250px;
+    }
+  }
+}
+
+
+// version desktop
+@media screen and (min-width:1024px) {
+  .structure .posi_div_princial {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 964px;
+      height: 400px;
+    }
+  }
+
+  .structure .posi_div_secondaire {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 477px;
+      height: 300px;
+    }
+  }
+
+  // .dispo_information {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+
+  // .posi_techno {
+  //   display: flex;
+  //   justify-content: center;
+  //   position: relative;
+  //   right: 40px;
+  //   bottom: 20px;
+  // }
 }

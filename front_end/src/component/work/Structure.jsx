@@ -11,8 +11,14 @@ const Structure = () => {
   // vient reécuperer chaque donnée en fonction de l'id
   const { id } = useParams();
   const projets = datas.projets;
+  // recuperation des données en fonction de leur id sans utiliser la constante t
   const annonce = Object.values(projets).find((item) => item.id === id);
   if (!annonce) {
+    return <p>projet non trouvé</p>
+  }
+  // recuperation des données en fonction de leur id avec l'utilisationd de la constante t
+  const key = Object.keys(projets).find(key => projets[key].id === id);
+  if (!key) {
     return <p>projet non trouvé</p>
   }
   // récupération des données du fichier json (fr.josn) pour le tableau picture
@@ -22,7 +28,16 @@ const Structure = () => {
       <img key={event} src={picture.src} alt={picture.alt} />
     ));
   };
-
+  const principalImage = (image) => {
+    return image.map((image, even) => (
+      <img key={even} src={image.src} alt={image.alt} />
+    ));
+  };
+  const secondaireImage = (images) => {
+    return images.map((images, e) => (
+      <img key={e} src={images.src} alt={images.alt} />
+    ));
+  };
   const navigate = useNavigate();
   const redi = () => {
     navigate('/');
@@ -31,24 +46,23 @@ const Structure = () => {
     <>
       <section className='structure'>
         <div className='posi_button'>
-          <button onClick={redi}><i className="fa-solid fa-arrow-left"></i>{annonce.next}</button>
+          <button onClick={redi}><i className="fa-solid fa-arrow-left"></i>{t(`projets.${key}.next`)}</button>
         </div>
         <div className='posi_div_princial'>
-          <img src="" alt="" />
+          {principalImage(annonce.image)}
         </div>
         <div className='posi_div_secondaire'>
-          <img src="" alt="" />
-          <img src="" alt="" />
+          {secondaireImage(annonce.images)}
         </div>
         <div className='dispo_information'>
           <h2>{annonce.tag}</h2>
-          <p>{annonce.information}</p>
+          <p>{t(`projets.${key}.information`)}</p>
         </div>
         <div className='posi_techno'>
           {logoImage(annonce.picture)}
         </div>
         <div className='posi_btn'>
-          <button><i className="fa-brands fa-github"></i>{annonce.link}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
+          <button><i className="fa-brands fa-github"></i>{t(`projets.${key}.link`)}<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
         </div>
       </section>
     </>
