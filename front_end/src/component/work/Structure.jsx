@@ -44,7 +44,7 @@ const Structure = () => {
   };
 
   const redirection = () => {
-    window.location.href = annonce.weblink;
+    window.open(annonce.weblink, '_blank');
   };
   return (
     <>

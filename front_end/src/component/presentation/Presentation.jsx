@@ -8,7 +8,7 @@ const Presentation = () => {
     <div id='profile' className='prestation'>
       <img src='/assets/Profile.webp' alt="photo de profile du développer cedric" />
       <div className='descript'>
-        <p>{t('presentation.description')}</p>
+        <h1>{t('presentation.description')}</h1>
       </div>
     </div>
   );

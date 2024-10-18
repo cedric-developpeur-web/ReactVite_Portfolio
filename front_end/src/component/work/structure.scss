@@ -4,6 +4,11 @@
   gap: 20px;
   padding: 30px;
 
+  img {
+    object-fit: cover;
+    object-position: top center;
+  }
+
   .posi_button {
 
     button {
@@ -45,6 +50,7 @@
   }
 
   .dispo_information {
+    text-align: center;
     color: #fff;
   }
 

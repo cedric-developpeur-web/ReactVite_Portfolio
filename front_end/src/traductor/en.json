@@ -1,24 +1,24 @@
   {
     "navbar":{
       "title1": "Profile",
-      "title2": "My Projects",
+      "title2": "Projects",
       "title3": "Contact"
     },
     "presentation":{
      "description": "My name is Cédric, I'm 27 years old and I've completed a 1-year vocational training course in web development to become a front-end developer." 
     },
     "competence":{
-      "description":"My skills"
+      "description":"Skills"
     },
    "projets":{
-      "description":"My Projects",
+      "description":"Projects",
     "item1":{
       "id":"cv1njdn",
       "title":"Javascript Sophie Bluel",
       "tag":"Sophie Bluel",
       "next":"Back to projects",
       "link":"project link github",
-       "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
+      "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
       "information":"Let me introduce you to the Sophie Bluel project with a brief introduction describing the purpose of the website developed for freelance photographer Nina Carducci. The website allows users to add photographs by displaying a gallery by category of the images they have uploaded to the site. This allows users to log in to their account to showcase their own gallery of photographs they have taken, but it also allows them to delete their photographs for better management of their work and to add them to the pre-selected categories offered to them for better organisation and visibility of their work.",
        "image":[
         {
