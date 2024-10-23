@@ -5,7 +5,7 @@ import '../../traduction_i18next/i18next';
 const Presentation = () => {
   const { t } = useTranslation();
   return (
-    <div id='profile' className='prestation'>
+    <div id='profil' className='prestation'>
       <img src='/assets/Profile.webp' alt="photo de profile du développer cedric" />
       <div className='descript'>
         <h1>{t('presentation.description')}</h1>

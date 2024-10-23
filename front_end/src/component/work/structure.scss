@@ -12,9 +12,12 @@
   .posi_button {
 
     button {
-      height: 20px;
+      height: 30px;
       border: transparent;
-      border-radius: 5px;
+      border-radius: 10px;
+      background-color: $color_button;
+      color: $button_text;
+      border: solid 2px $boder_button;
 
       &:hover {
         cursor: pointer;
@@ -69,6 +72,9 @@
       border: transparent;
       border-radius: 10px;
       height: 30px;
+      background-color: $color_button;
+      color: $button_text;
+      border: solid 2px $boder_button;
 
       &:hover {
         cursor: pointer;

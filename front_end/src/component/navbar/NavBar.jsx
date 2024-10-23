@@ -18,7 +18,7 @@ const NavBar = () => {
           <img onClick={() => changeLanguage('en')} src='/assets/royaume-uni.webp' alt="icone du drapeau anglais" />
         </div>
         <ul>
-          <li><a href="#profile">{t('navbar.title1')}</a></li>
+          <li><a href="#profil">{t('navbar.title1')}</a></li>
           <li><a href='#projets'>{t('navbar.title2')}</a></li>
           <li><a href='#contact'>{t('navbar.title3')}</a></li>
         </ul>
