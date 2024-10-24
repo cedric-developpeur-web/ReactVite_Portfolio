@@ -1,0 +1,68 @@
+.dispo_message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 360px 0px 0px;
+
+  h1 {
+    color: $error_h1;
+    font-size: 50px;
+  }
+
+  .dispo_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+      border: transparent;
+      border-radius: 15px;
+      width: 50%;
+      height: 35px;
+      color: $error_text_btn;
+      background-color: $error_btn;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// version tablette
+@media screen and (min-width:767px) {
+  .dispo_message {
+    padding: 420px 0px 0px;
+
+    h1 {
+      font-size: 90px;
+    }
+  }
+}
+
+// version desktop
+@media screen and (min-width:1024px) {
+  .dispo_message {
+    padding: 150px 0px 0px;
+
+    h1 {
+      font-size: 120px;
+    }
+  }
+}
+
+// version desktop large ecran
+@media screen and (min-width:1920px) {
+  .dispo_message {
+    padding: 400px 0px 0px;
+
+    h1 {
+      font-size: 160px;
+    }
+
+    .dispo_btn button {
+      width: 25%;
+      height: 40px;
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import '../../traduction_i18next/i18next';
 import { useParams } from 'react-router-dom';
 import datas from '../../traductor/fr.json';
+import PageError from '../../page/PageError';
 
 const Structure = () => {
   const { t } = useTranslation();
@@ -14,12 +15,12 @@ const Structure = () => {
   // recuperation des données en fonction de leur id sans utiliser la constante t
   const annonce = Object.values(projets).find((item) => item.id === id);
   if (!annonce) {
-    return <p>projet non trouvé</p>
+    return <PageError />
   }
   // recuperation des données en fonction de leur id avec l'utilisationd de la constante t
   const key = Object.keys(projets).find(key => projets[key].id === id);
   if (!key) {
-    return <p>projet non trouvé</p>
+    return <PageError />
   }
   // récupération des données du fichier json (fr.josn) pour le tableau picture
   // vient créer une balise img pour chaque élément

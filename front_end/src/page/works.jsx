@@ -1,8 +1,6 @@
 import React from 'react';
 import NavBar from '../component/navbar/NavBar';
 import Structure from '../component/work/Structure';
-import Footer from '../component/footer/Footer';
-
 
 const works = () => {
   return (
@@ -11,7 +9,6 @@ const works = () => {
       <main>
         <Structure />
       </main>
-      <Footer />
     </>
   );
 };

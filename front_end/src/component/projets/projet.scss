@@ -75,3 +75,15 @@
     }
   }
 }
+
+//version desktop large ecran
+@media screen and (min-width:1920px) {
+  .project .posi_projects {
+    gap: 30px;
+
+    img {
+      width: 500px;
+      height: 232px;
+    }
+  }
+}
