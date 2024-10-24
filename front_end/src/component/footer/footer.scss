@@ -10,7 +10,7 @@ footer {
 
   .dispo_coordonnee {
     position: absolute;
-    padding: 10px;
+    padding: 0px 0px 30px 15px;
 
     h3 {
       color: $color_h3;
@@ -32,6 +32,16 @@ footer {
         color: $color_link;
         margin: 0;
       }
+
+      .fa-eye {
+        position: absolute;
+        top: 56px;
+        right: 30px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
 
     .mail {
@@ -40,10 +50,10 @@ footer {
         text-decoration: underline;
       }
 
-      p {
+      a {
         position: relative;
-        left: 30px;
-        bottom: 23px;
+        left: 10px;
+        bottom: 2px;
         color: $color_link;
         margin: 0;
       }
@@ -86,12 +96,18 @@ footer {
 @media screen and (min-width:767px) {
   footer {
     .dispo_coordonnee {
-      padding: 10px 10px 10px 50px;
+      padding: 0px 10px 30px 80px;
     }
 
     .dispo_button {
       button {
         left: 380px;
+      }
+    }
+
+    .phone {
+      .fa-eye {
+        right: 40px;
       }
     }
   }
@@ -104,7 +120,7 @@ footer {
     margin-top: 110px;
 
     .dispo_coordonnee {
-      padding: 10px 10px 10px 150px;
+      padding: 0px 10px 30px 150px;
     }
 
     .dispo_button {
