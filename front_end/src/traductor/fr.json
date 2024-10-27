@@ -14,11 +14,9 @@
       "title": "Coordonnées",
       "number": "06 12 26 76 70",
       "mail": "cedric.cocq@icloud.com",
-      "github": "lien vers github",
       "webgithub":"https://github.com/cedric-developpeur-web?tab=repositories",
-      "linkedin": "lien vers linkedin",
       "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-b17253295/",
-      "cv": "mon cv"
+      "cv": "/assets/CV_Développeur.pdf"
     },
     "projets":{
       "description":"Mes Projets",

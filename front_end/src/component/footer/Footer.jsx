@@ -18,6 +18,7 @@ const Footer = () => {
   const linkedin = () => {
     window.open(data.weblinkedin, '_blank');
   }
+
   return (
     <footer id='contact'>
       <div className='dispo_coordonnee'>
@@ -34,7 +35,9 @@ const Footer = () => {
       <div className='dispo_button'>
         <i onClick={github} className="fa-brands fa-github"></i>
         <i onClick={linkedin} className="fa-brands fa-linkedin"></i>
-        <i className="fa-solid fa-file-pdf"></i>
+        <a href={data.cv} target='blank' rel='noopener noreferrer'>
+          <i className="fa-solid fa-file-pdf"></i>
+        </a>
       </div>
     </footer>
   );
