@@ -11,10 +11,9 @@
   .posi_projects {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 
     img {
-      width: 300px;
+      width: 250px;
       height: 150px;
       border-radius: 5px;
       border: solid 2px $color_border;
@@ -27,8 +26,10 @@
 
       button {
         position: relative;
-        bottom: 30px;
-        border-radius: 3px;
+        bottom: 50px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        height: 35px;
         border: transparent;
         background-color: $color_button;
         color: $color_text;
@@ -45,41 +46,41 @@
   }
 }
 
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  .project .posi_projects img {
+    width: 400px;
+    height: 200px;
+  }
+}
 
 // version tablette
 @media screen and (min-width:767px) {
   .project .posi_projects {
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 5px;
 
     img {
       width: 240px;
       height: 150px;
-      object-fit: cover;
     }
   }
 }
 
 
-// version desktop
+// version desktop full hd
 @media screen and (min-width:1024px) {
-  .project .posi_projects {
-    display: flex;
-    gap: 10px;
-
-    img {
-      width: 320px;
-      height: 150px;
-      object-fit: cover;
-    }
+  .project .posi_projects img {
+    width: 320px;
+    height: 150px;
   }
 }
 
-//version desktop large ecran
+//version desktop large ecran 2k et plus
 @media screen and (min-width:1920px) {
   .project .posi_projects {
-    gap: 30px;
+    gap: 15px;
 
     img {
       width: 500px;

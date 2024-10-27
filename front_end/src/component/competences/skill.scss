@@ -10,7 +10,23 @@
 
   .posi_skills {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  #skill .posi_skills {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+// version tablette
+@media screen and (min-width:767px) {
+  #skill .posi_skills {
+    gap: 90px;
   }
 }

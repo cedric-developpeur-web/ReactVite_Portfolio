@@ -1,7 +1,7 @@
 nav {
   .posi_drapeau {
     position: absolute;
-    left: 15px;
+    left: 5px;
     top: 14px;
 
     :hover {
@@ -9,7 +9,7 @@ nav {
     }
 
     .drap_fr {
-      margin-right: 20px;
+      margin-right: 10px;
     }
   }
 
@@ -35,45 +35,48 @@ nav {
   }
 }
 
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  nav .posi_drapeau {
+    left: 15px;
+
+    .drap_fr {
+      margin-right: 20px;
+    }
+  }
+}
+
 // version tablette
 @media screen and (min-width:767px) {
-  nav {
-    .posi_drapeau {
-      left: 40px;
-      top: 14px;
+  nav .posi_drapeau {
+    left: 20px;
 
-      .drap_fr {
-        margin-right: 50px;
-      }
+    .drap_fr {
+      margin-right: 20px;
     }
   }
 }
 
 
-// version desktop
+// version desktop full hd
 @media screen and (min-width:1024px) {
-  nav {
-    .posi_drapeau {
-      left: 60px;
-      top: 14px;
+  nav .posi_drapeau {
+    left: 25px;
 
-      .drap_fr {
-        margin-right: 60px;
-      }
+    .drap_fr {
+      margin-right: 30px;
     }
   }
 }
 
-// version desktop large ecran
+// version desktop 2k et plus
 @media screen and (min-width:1920px) {
-  nav {
-    .posi_drapeau {
-      left: 30px;
-      top: 14px;
+  nav .posi_drapeau {
+    left: 30px;
+    top: 14px;
 
-      .drap_fr {
-        margin-right: 40px;
-      }
+    .drap_fr {
+      margin-right: 40px;
     }
   }
 }

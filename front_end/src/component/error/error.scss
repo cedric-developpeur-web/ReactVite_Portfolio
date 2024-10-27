@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 360px 0px 0px;
+  padding: 215px 0px 200px;
 
   h1 {
     color: $error_h1;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .dispo_btn {
@@ -29,10 +29,21 @@
   }
 }
 
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  .dispo_message {
+    padding: 260px 0px 200px;
+
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
 // version tablette
 @media screen and (min-width:767px) {
   .dispo_message {
-    padding: 420px 0px 0px;
+    padding: 350px 0px 200px;
 
     h1 {
       font-size: 90px;
@@ -40,29 +51,24 @@
   }
 }
 
-// version desktop
+// version desktop full hd
 @media screen and (min-width:1024px) {
   .dispo_message {
-    padding: 150px 0px 0px;
+    padding: 228px 0px 200px;
 
     h1 {
-      font-size: 120px;
+      font-size: 90px;
     }
   }
 }
 
-// version desktop large ecran
+// version desktop 2k et plus
 @media screen and (min-width:1920px) {
   .dispo_message {
-    padding: 400px 0px 0px;
+    padding: 350px 0px 200px;
 
     h1 {
-      font-size: 160px;
-    }
-
-    .dispo_btn button {
-      width: 25%;
-      height: 40px;
+      font-size: 90px;
     }
   }
 }

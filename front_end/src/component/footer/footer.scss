@@ -1,7 +1,8 @@
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
   width: 100%;
   height: 150px;
   border-top: solid 2px $color_border;
@@ -9,51 +10,39 @@ footer {
   margin-top: 30px;
 
   .dispo_coordonnee {
-    position: absolute;
-    padding: 0px 0px 30px 15px;
+    padding-bottom: 20px;
 
     h3 {
       color: $color_h3;
-      margin-top: 10px;
-      margin-bottom: 20px;
     }
 
     i {
-      margin: 0px;
       color: $color_link;
     }
 
     .phone {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
 
       p {
-        position: relative;
-        left: 30px;
-        bottom: 20px;
         color: $color_link;
         margin: 0;
-      }
-
-      .fa-eye {
-        position: absolute;
-        top: 56px;
-        right: 30px;
-
-        &:hover {
-          cursor: pointer;
-        }
       }
     }
 
     .mail {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
       :hover {
         cursor: pointer;
         text-decoration: underline;
       }
 
       a {
-        position: relative;
-        left: 10px;
-        bottom: 2px;
         color: $color_link;
         margin: 0;
       }
@@ -65,70 +54,45 @@ footer {
     flex-direction: column;
     gap: 10px;
 
-    button {
-      position: relative;
-      bottom: 25px;
-      left: 240px;
-      width: 40%;
-      height: 30px;
-      border-radius: 10px;
-      border: solid 2px $color_border;
-      background-color: $button_footer;
+    i {
+      font-size: 25px;
       color: $button_text;
 
       &:hover {
         cursor: pointer;
       }
-
-      i {
-        margin-right: 10px;
-      }
-
-      .fa-solid {
-        margin-left: 10px;
-      }
     }
   }
 }
 
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  footer {
+    gap: 100px;
+  }
+}
 
-// version tablette
+// // version tablette
 @media screen and (min-width:767px) {
   footer {
+    margin-top: 155px;
+
     .dispo_coordonnee {
-      padding: 0px 10px 30px 80px;
-    }
-
-    .dispo_button {
-      button {
-        left: 380px;
-      }
-    }
-
-    .phone {
-      .fa-eye {
-        right: 40px;
-      }
+      padding-bottom: 30px
     }
   }
 }
 
-
-// version desktop
+// // version desktop full hd
 @media screen and (min-width:1024px) {
   footer {
-    margin-top: 110px;
+    gap: 200px;
+  }
+}
 
-    .dispo_coordonnee {
-      padding: 0px 10px 30px 150px;
-    }
-
-    .dispo_button {
-      align-items: center;
-
-      button {
-        left: 240px;
-      }
-    }
+// // version desktop 2k et plus
+@media screen and (min-width:1920px) {
+  footer {
+    margin-top: 248px;
   }
 }

@@ -5,8 +5,8 @@
 
 
   img {
-    margin-top: 50px;
-    width: 50%;
+    margin-top: 30px;
+    width: 180px;
     height: 180px;
     border-radius: 50%;
     border: solid 2px $color_border;
@@ -20,7 +20,6 @@
   align-items: center;
 
   h1 {
-    width: 50%;
     margin: 30px 0px 0px 0px;
     color: $color_h1;
     text-align: center;
@@ -29,41 +28,38 @@
   }
 }
 
+// grand ecran mobile
+@media screen and (min-width:480px) {
+  .prestation img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 // version tablette
 @media screen and (min-width:767px) {
-  .prestation {
-    img {
-      width: 30%;
-      height: 200px;
-      object-fit: cover;
-    }
+  .prestation img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .descript h1 {
+    font-size: 18px;
   }
 }
 
-// version desktop
+// version desktop full hd
 @media screen and (min-width:1024px) {
-  .prestation {
-    img {
-      width: 15%;
-      height: 250px;
-      object-fit: cover;
-    }
+  .prestation img {
+    width: 250px;
+    height: 250px;
   }
 }
 
-// version desktop large ecran
+// version desktop large ecran 2k et plus
 @media screen and (min-width:1920px) {
-  .prestation {
-    img {
-      width: 10%;
-      height: 250px;
-      object-fit: cover;
-    }
-  }
-
-  .descript {
-    h1 {
-      font-size: 18px;
-    }
+  .prestation img {
+    width: 300px;
+    height: 300px;
   }
 }
