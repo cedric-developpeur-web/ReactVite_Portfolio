@@ -59,7 +59,7 @@
   .project .posi_projects {
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 5px;
+    gap: 10px;
 
     img {
       width: 240px;
@@ -71,20 +71,20 @@
 
 // version desktop full hd
 @media screen and (min-width:1024px) {
-  .project .posi_projects img {
-    width: 320px;
-    height: 150px;
+  .project .posi_projects {
+    gap: 20px;
+
+    img {
+      width: 320px;
+      height: 150px;
+    }
   }
 }
 
 //version desktop large ecran 2k et plus
 @media screen and (min-width:1920px) {
-  .project .posi_projects {
-    gap: 15px;
-
-    img {
-      width: 500px;
-      height: 232px;
-    }
+  .project .posi_projects img {
+    width: 500px;
+    height: 232px;
   }
 }
