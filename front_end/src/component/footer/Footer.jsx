@@ -9,9 +9,6 @@ const Footer = () => {
 
 
   // fonction de redirection de lien vers une autre page web grace à blank
-  const mailto = () => {
-    window.open('mailto:{data.mail}', '_blank');
-  }
   const github = () => {
     window.open(data.webgithub, '_blank');
   }
@@ -27,9 +24,9 @@ const Footer = () => {
           <i className="fa-solid fa-phone"></i>
           <p>{data.number}</p>
         </div>
-        <div className='mail' onClick={mailto}>
+        <div className='mail'>
           <i className="fa-solid fa-at"></i>
-          <a>{data.mail}</a>
+          <a href={`mailto:${data.mail}`} target='blank' rel='noopener noreferrer'>{data.mail}</a>
         </div>
       </div>
       <div className='dispo_button'>

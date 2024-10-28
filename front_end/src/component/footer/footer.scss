@@ -37,14 +37,16 @@ footer {
       align-items: center;
       gap: 10px;
 
-      :hover {
-        cursor: pointer;
-        text-decoration: underline;
-      }
 
       a {
         color: $color_link;
         margin: 0;
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
       }
     }
   }
