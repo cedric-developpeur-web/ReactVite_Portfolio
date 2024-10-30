@@ -18,9 +18,11 @@
       "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-b17253295/",
       "cv": "/assets/CV_developpeur.pdf"
     },
-    "projets":{
-      "description":"Mes Projets",
-    "item1":{
+    "projet":{
+      "description":"Mes Projets"
+    },
+    "projets":[
+    {
       "id":"cv1njdn",
       "title":"Javascript Sophie Bluel",
       "tag":"Sophie Bluel",
@@ -28,6 +30,12 @@
       "link":"lien projet github",
       "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
       "information":"Je vous présente le projet Sophie Bluel avec une briève introduction qui décrit le but du site Internet développé pour la photographe freelance Nina Carducci. Le site internet propose l’ajout de photographies en affichant une galerie par catégorie des images mises sur son site, cela permet au utilisateur de se connecter à leur compte pour mettre en avant leur propre galerie des photographies qu’ils ont prises, mais il propose aussi la suppression de leur photographie pour mieux alimenter et garantir une meilleure gestion du travail, il peut ainsi les ajouter aux catégories présélectionnées qui leur sont proposées pour une meilleure organisation et visibilité de leur réalisation.",
+      "miniPicture":[
+        {
+          "src": "/assets/javascript_sophieBluel.webp",
+          "alt": "image du projet sophie bluel javascript"
+        }
+      ],
       "image":[
         {
          "src": "/assets/accueil_sophiebluel.webp",
@@ -55,7 +63,7 @@
         }
       ]
     },
-    "item2":{
+    {
       "id":"fds2fsj",
       "title":"React Kasa",
       "tag":"Kasa",
@@ -63,6 +71,12 @@
       "link":"lien projet github",
       "weblink":"https://github.com/cedric-developpeur-web/ReactNative_Kasa",
       "information":"Je vous présente le projet Kasa avec une briève introduction qui décrit le but du site Internet développé pour une agence de location de logement. Ce site propose des locations de logements près de chez les clients et bien plus encore. Quand on sélectionne un logement, on se retrouve rediriger sur une page où on nous présente le logement en proposant des images de celui-ci dans un slider, on peut aussi retrouver sa localité exacte du logement avec une description de ce qui est autour du logement (exemple : où se trouve le métro le plus proche, le magasin ou restaurant en indiquant les distances…), nous retrouvons aussi la note attribuée à ce logement : on peut savoir les équipements que possède ce logement exemple : frigo, wifi...",
+      "miniPicture":[
+        {
+          "src": "/assets/ReactCra_kasa.webp",
+          "alt": "image du projet kasa react avec cra"
+        }
+      ],
       "image":[
         {
          "src": "/assets/accueil_kasa.webp",
@@ -90,7 +104,7 @@
         }
       ]
     },
-    "item3":{
+    {
       "id":"fds3gfs",
       "title":"React avec Vite ArgentBank",
       "tag":"ArgenBank",
@@ -98,6 +112,12 @@
       "link":"lien projet github",
       "weblink":"https://github.com/cedric-developpeur-web/ReactVite_ArgentBank",
       "information":"Je vous présente le projet ArgentBank avec une briève introduction qui décrit le but du site Internet développé pour une agence bancaire, traduit en anglais. Elle propose à ces clients de se connecter à leur compte et les clients peuvent modifier leur pseudo uniquement grâce à un formulaire d’édition qui permet de modifier ou d’annuler le pseudo. Ils pourront aussi visualiser les différents soldes sur leur compte.",
+      "miniPicture":[
+        {
+          "src": "/assets/ReactVite_argentBank.webp",
+          "alt": "image du projet argent bank react avec vite"
+        }
+      ],
       "image":[
         {
          "src": "/assets/accueil_argentbank.webp",
@@ -129,5 +149,5 @@
         }
       ]
     }
-    }
-  }
+  ]
+}

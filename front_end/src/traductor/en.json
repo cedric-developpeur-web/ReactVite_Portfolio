@@ -18,9 +18,11 @@
       "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-b17253295/",
       "cv": "/assets/CV_developpeur.pdf"
     },
-   "projets":{
-      "description":"Projects",
-    "item1":{
+     "projet":{
+       "description":"Projects"
+    },
+   "projets":[
+    {
       "id":"cv1njdn",
       "title":"Javascript Sophie Bluel",
       "tag":"Sophie Bluel",
@@ -28,7 +30,13 @@
       "link":"project link github",
       "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
       "information":"Let me introduce you to the Sophie Bluel project with a brief introduction describing the purpose of the website developed for freelance photographer Nina Carducci. The website allows users to add photographs by displaying a gallery by category of the images they have uploaded to the site. This allows users to log in to their account to showcase their own gallery of photographs they have taken, but it also allows them to delete their photographs for better management of their work and to add them to the pre-selected categories offered to them for better organisation and visibility of their work.",
-       "image":[
+      "miniPicture":[
+        {
+          "src": "/assets/javascript_sophieBluel.webp",
+          "alt": "image du projet sophie bluel javascript"
+        }
+      ],
+      "image":[
         {
          "src": "/assets/accueil_sophiebluel.webp",
          "alt": "Image from the website of Nina Carducci, freelance photographer."
@@ -55,7 +63,7 @@
         }
       ]
     },
-    "item2":{
+    {
       "id":"fds2fsj",
       "title":"React Kasa",
       "tag":"Kasa",
@@ -63,6 +71,12 @@
       "link":"project link github",
       "weblink":"https://github.com/cedric-developpeur-web/ReactNative_Kasa",
       "information":"I'd like to introduce you to the Kasa project with a brief introduction describing the purpose of the website developed for an accommodation rental agency. The site offers accommodation for rent close to the customer's home, and much more besides. When you select an accommodation, you're redirected to a page where the accommodation is presented with images of it in a slider, you can also find the exact location of the accommodation with a description of what's around the accommodation (example: where's the nearest metro station, the nearest shop or restaurant, indicating the distances...), you can also find the rating given to the accommodation: you can find out what equipment the accommodation has, for example: fridge, wifi...",
+       "miniPicture":[
+        {
+          "src": "/assets/ReactCra_kasa.webp",
+          "alt": "image du projet kasa react avec cra"
+        }
+      ],
       "image":[
         {
          "src": "/assets/accueil_kasa.webp",
@@ -90,14 +104,20 @@
         }
       ]
     },
-    "item3":{
+    {
       "id":"fds3gfs",
       "title":"React avec Vite ArgentBank",
       "tag":"ArgenBank",
       "next":"Back to projects",
       "link":"project link github",
       "information":"Let me introduce you to the ArgentBank project with a brief introduction describing the purpose of the website developed for a bank branch, translated into English. It allows customers to log in to their account and customers can only change their nickname using an edit form that allows them to change or cancel the nickname. They can also view the various balances on their account.",
-       "image":[
+       "miniPicture":[
+        {
+          "src": "/assets/ReactVite_argentBank.webp",
+          "alt": "image du projet argent bank react avec vite"
+        }
+      ],
+      "image":[
         {
          "src": "/assets/accueil_argentbank.webp",
          "alt": "Image showing a bank branch website translated into English."
@@ -127,5 +147,5 @@
         }
       ]
     }
-    }
-  }
+  ]
+}
