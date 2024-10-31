@@ -19,7 +19,6 @@
 // grand ecran mobile
 @media screen and (min-width:480px) {
   #skill .posi_skills {
-    flex-direction: row;
     gap: 30px;
   }
 }
@@ -27,6 +26,7 @@
 // version tablette
 @media screen and (min-width:767px) {
   #skill .posi_skills {
-    gap: 90px;
+    flex-direction: row;
+    gap: 0px;
   }
 }

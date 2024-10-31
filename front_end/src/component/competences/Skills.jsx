@@ -10,8 +10,8 @@ const Skills = () => {
       <h2>{t('competence.description')}</h2>
       <div className='posi_skills'>
         <img src='/assets/logo_javascript.webp' alt="logo javascript" />
-        <img src='/assets/React_Native_Logo.webp' alt="logo nodejs" />
-        <img src='/assets/logo_vitejs.webp' alt="logo react" />
+        <img src='/assets/React_Native_Logo.webp' alt="logo react native" />
+        <img src='/assets/logo_vitejs.webp' alt="logo react vite" />
       </div>
     </section>
   );

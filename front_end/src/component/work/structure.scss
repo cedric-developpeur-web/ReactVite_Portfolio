@@ -61,14 +61,14 @@
 
   .posi_techno {
     display: flex;
-    position: relative;
-    right: 40px;
-    bottom: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .posi_btn {
     display: flex;
     justify-content: flex-end;
+    padding-top: 30px;
 
     button {
       border: transparent;

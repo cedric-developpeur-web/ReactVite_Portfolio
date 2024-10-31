@@ -86,7 +86,6 @@
 // version desktop full hd
 @media screen and (min-width:1024px) {
   .project .posi_projects {
-    gap: 20px;
 
     img {
       width: 320px;
@@ -97,9 +96,13 @@
 
 //version desktop large ecran 2k et plus
 @media screen and (min-width:1920px) {
-  .project .posi_projects img {
-    width: 500px;
-    height: 232px;
+  .project .posi_projects {
+    gap: 20px;
+
+    img {
+      width: 500px;
+      height: 232px;
+    }
   }
 
   .project .posi_QR {
