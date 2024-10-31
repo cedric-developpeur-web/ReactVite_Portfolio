@@ -26,14 +26,15 @@ const Footer = () => {
         </div>
         <div className='mail'>
           <i className="fa-solid fa-at"></i>
-          <a href={`mailto:${data.mail}`} target='blank' rel='noopener noreferrer'>{data.mail}</a>
+          <a href={`mailto:${data.mail}`} alt='adresse mail pour me contacter' target='blank' rel='noopener noreferrer'>{data.mail}</a>
         </div>
       </div>
       <div className='dispo_button'>
         <i onClick={github} className="fa-brands fa-github"></i>
         <i onClick={linkedin} className="fa-brands fa-linkedin"></i>
-        <a href={data.cv} target='blank' rel='noopener noreferrer'>
-          <i className="fa-solid fa-file-pdf"></i>
+        <a href='/assets/CV_developpeur.pdf' aria-label='ouvrir mon CV au format PDF' target='blank' rel='noopener noreferrer'>
+          <i className="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          <span>ouvrir mon CV au format PDF</span>
         </a>
       </div>
     </footer>
