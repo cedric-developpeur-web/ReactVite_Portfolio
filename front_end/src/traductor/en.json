@@ -18,11 +18,9 @@
       "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-b17253295/",
       "cv": "/assets/CV_developpeur.pdf"
     },
-     "qr":{
-      "titleQr": "Share this site"
-    },
      "projet":{
-       "description":"Projects"
+       "description":"Projects",
+       "titleQr": "Share this site"
     },
    "projets":[
     {

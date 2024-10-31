@@ -27,8 +27,8 @@ const Projets = () => {
         ))}
       </div>
       <div className='posi_QR' >
-        <QRCodeCanvas value={data.QRurl} size={100} />
-        <p>{t('qr.titleQr')}</p>
+        <QRCodeCanvas value={"https://cedriccocq-portfolio.vercel.app/"} size={100} />
+        <p>{t('projet.titleQr')}</p>
       </div>
     </section>
   );
