@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import '../../traduction_i18next/i18next';
 import { useNavigate } from 'react-router-dom';
 import data from '../../traductor/fr.json';
+import { QRCodeCanvas } from 'qrcode.react';
 
 const Projets = () => {
   const { t } = useTranslation();
@@ -24,6 +25,10 @@ const Projets = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className='posi_QR' >
+        <QRCodeCanvas value={data.QRurl} size={100} />
+        <p>{t('qr.titleQr')}</p>
       </div>
     </section>
   );

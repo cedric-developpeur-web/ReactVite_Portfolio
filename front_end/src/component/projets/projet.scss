@@ -44,6 +44,20 @@
       }
     }
   }
+
+  .posi_QR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding-top: 30px;
+
+    p {
+      margin: 0;
+      color: $color_text;
+      font-size: 14px;
+    }
+  }
 }
 
 // grand ecran mobile
@@ -86,5 +100,9 @@
   .project .posi_projects img {
     width: 500px;
     height: 232px;
+  }
+
+  .project .posi_QR {
+    padding-top: 100px;
   }
 }
