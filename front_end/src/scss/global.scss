@@ -4,14 +4,69 @@ body {
   font-style: normal;
   margin: 0px;
   background-color: $color_body;
-  max-width: 2560px;
+  // max-width: 2560px;
+}
 
-  header {
+header {
+  width: 100%;
+  border-bottom: solid 1px $color_border;
+}
+
+// animation de fond
+main {
+  // Pour que l'élément pseudo ::before soit bien positionné
+  position: relative;
+  // Cache tout débordement de l'animation
+  overflow: hidden;
+
+  &::before {
+    // Ajoute un élément vide pour l'animation de fond
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    border-bottom: solid 1px $color_border;
+    height: 100%;
+    // Dégradé de couleurs jade, bleu, jaune, et orange
+    background: $degrader_main;
+    // Agrandit pour un effet de déplacement fluide
+    background-size: 200% 200%;
+    // Lance l'animation
+    animation: gradientAnimation 5s ease infinite;
+
+    // Place en arrière-plan
+    z-index: 0;
+  }
+
+  // Assure que le contenu reste au-dessus de l'animation
+  >* {
+    position: relative;
+    z-index: 1;
   }
 }
 
+// Animation de fond pour créer l'effet de mouvement
+@keyframes gradientAnimation {
+  0% {
+    // Début de l'animation
+    background-position: 0% 50%;
+  }
+
+  50% {
+    // Milieu du mouvement
+    background-position: 100% 50%;
+  }
+
+  100% {
+    // Retour au point de départ
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+// configuration de la police d'écriture
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
