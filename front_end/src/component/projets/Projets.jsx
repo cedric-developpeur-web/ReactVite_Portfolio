@@ -4,6 +4,7 @@ import '../../traduction_i18next/i18next';
 import { useNavigate } from 'react-router-dom';
 import data from '../../traductor/fr.json';
 import { QRCodeCanvas } from 'qrcode.react';
+import './projet.scss';
 
 const Projets = () => {
   const { t } = useTranslation();

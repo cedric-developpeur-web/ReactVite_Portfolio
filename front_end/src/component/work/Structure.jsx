@@ -5,6 +5,7 @@ import '../../traduction_i18next/i18next';
 import { useParams } from 'react-router-dom';
 import datas from '../../traductor/fr.json';
 import PageError from '../../page/PageError';
+import './structure.scss';
 
 const Structure = () => {
   const { t } = useTranslation();

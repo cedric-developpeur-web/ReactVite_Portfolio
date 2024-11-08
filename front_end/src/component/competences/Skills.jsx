@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import '../../traduction_i18next/i18next';
+import './skill.scss';
 
 const Skills = () => {
   const { t } = useTranslation();
