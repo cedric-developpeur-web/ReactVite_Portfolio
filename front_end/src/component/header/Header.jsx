@@ -1,15 +1,13 @@
 import React from 'react';
+import './header.scss';
 import { useTranslation } from 'react-i18next';
 import '../../traduction_i18next/i18next';
-import './navbar.scss';
 
-const NavBar = () => {
-
+const Header = () => {
   const { t, i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-
 
   return (
     <header>
@@ -28,4 +26,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;

@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../component/navbar/NavBar';
 import Structure from '../component/work/Structure';
 import Footer from '../component/footer/Footer';
+import Header from '../component/header/Header';
 
 const works = () => {
   return (
     <>
-      <NavBar />
+      <Header />
       <main>
         <Structure />
       </main>
