@@ -10,9 +10,9 @@ const Error = () => {
   return (
     <section className='dispo_message'>
       <div>
-        <h1>Page non trouver</h1>
+        <h1>Page non trouvée</h1>
         <div className='dispo_btn'>
-          <button onClick={previous}>revenir sur le site</button>
+          <button onClick={previous}>Revenir sur le site</button>
         </div>
       </div>
     </section>
