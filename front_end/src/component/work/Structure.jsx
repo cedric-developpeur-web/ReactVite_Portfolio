@@ -28,6 +28,8 @@ const Structure = () => {
       console.error('lien non trouvé');
     }
   };
+  // passer directement par i18next t vient traduire si la clé projets existe dans les fichiers json dand i18next puis retourne un tableau object de ce qui contient
+  const projet = t("projets", { returnObjects: true });
 
   return (
     <>
@@ -37,7 +39,7 @@ const Structure = () => {
         </div>
       </section>
       <section className='container_card'>
-        {datas.projets.map((projects) => (
+        {projet.map((projects) => (
           <div key={projects.id} className='card'>
             <img src={projects.miniPicture[0].src} alt={projects.miniPicture[0].alt} />
             <h3>{t(projects.title)}</h3>

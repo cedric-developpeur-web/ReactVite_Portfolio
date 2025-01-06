@@ -22,11 +22,12 @@
   align-items: center;
 
   h1 {
-    margin: 30px 5px 0px 5px;
+    margin: 30px 0px 0px;
     color: $color_h1;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
+    max-width: 280px;
   }
 }
 
@@ -35,6 +36,10 @@
   .prestation img {
     width: 200px;
     height: 200px;
+  }
+
+  .descript h1 {
+    max-width: 400px;
   }
 }
 
@@ -47,6 +52,7 @@
 
   .descript h1 {
     font-size: 18px;
+    max-width: 700px;
   }
 }
 
@@ -55,6 +61,10 @@
   .prestation img {
     width: 250px;
     height: 250px;
+  }
+
+  .descript h1 {
+    max-width: 1400px;
   }
 }
 
