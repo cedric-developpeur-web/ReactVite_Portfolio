@@ -1,7 +1,9 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import tradFr from '../traductor/fr.json';
-import tradEn from '../traductor/en.json';
+// import file french
+import dataFr from '../traductor/fr.json';
+// import file english
+import dataEn from '../traductor/en.json';
 
 
 i18n
@@ -10,10 +12,10 @@ i18n
   .init({
     resources: {
       fr: {
-        translation: tradFr,
+        translation: dataFr,
       },
       en: {
-        translation: tradEn,
+        translation: dataEn,
       },
     },
     lng: 'fr',

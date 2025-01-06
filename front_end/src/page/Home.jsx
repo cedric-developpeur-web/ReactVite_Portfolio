@@ -1,7 +1,8 @@
 import React from 'react';
 import Presentation from '../component/presentation/Presentation';
 import Skills from '../component/competences/Skills';
-import Projets from '../component/projets/Projets';
+import QrCode from '../component/QRCODE/QrCode';
+
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <br />
         <Skills />
         <br />
-        <Projets />
+        <QrCode />
       </main>
     </>
   );

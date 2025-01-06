@@ -4,161 +4,99 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 10px;
-
-  img {
-    object-fit: cover;
-    object-position: top center;
-  }
+  margin: 10px;
 
   .posi_button {
-
     button {
+      width: 150px;
       height: 30px;
-      border: transparent;
       border-radius: 10px;
+      border: solid 2px $boder_button;
       background-color: $color_button;
       color: $button_text;
-      border: solid 2px $boder_button;
+      margin: 15px 0px 0px 10px;
 
       &:hover {
         cursor: pointer;
       }
 
       i {
-        margin-right: 5px;
+        padding-right: 6px;
       }
     }
   }
+}
 
-  .posi_div_princial {
-    display: flex;
+.container_card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 50px 0px 70px;
 
-    img {
-      width: 100%;
-      height: 200px;
-      border-radius: 5px;
-    }
+  .card {
+    width: 300px;
+    height: 370px;
+    background: $degrader_main;
+    border-radius: 42px 42px 10px 10px;
+    border-bottom: solid 7.4px #291F43;
+    transform: scale(0.85);
+    // background: $degrader_main;
+    // Agrandit pour un effet de déplacement fluide
+    background-size: 180% 180%;
+    // Lance l'animation
+    animation: gradientAnimation 1.2s ease infinite;
   }
 
-  .posi_div_secondaire {
-    display: flex;
-    gap: 10px;
-
-    img {
-      width: 48%;
-      height: 200px;
-      border-radius: 5px;
-    }
+  img {
+    width: 300px;
+    height: 180px;
+    border-radius: 40px 40px 0px 0px;
+    border-bottom: solid 2px #473876;
   }
 
-  .dispo_information {
+  h3 {
+    margin: 10px 0px 0px;
     text-align: center;
-    color: $color_text;
-
-    p {
-      font-size: 15px;
-    }
+    color: #fff;
   }
 
-  .posi_techno {
+  p {
+    margin: 10px 0px 0px;
+    padding: 0px 5px 0px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .dispo_button {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .posi_btn {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 30px;
 
     button {
+      width: 150px;
+      height: 30px;
+      margin: 20px 0px 0px;
       border: transparent;
       border-radius: 10px;
-      height: 30px;
-      background-color: $color_button;
+      background: $color_button;
       color: $button_text;
-      border: solid 2px $boder_button;
-
-      &:hover {
-        cursor: pointer;
-      }
-
-      .fa-github {
-        margin-right: 5px;
-        font-size: 15px;
-
-      }
-
-      i {
-        margin-left: 5px;
-      }
+      cursor: pointer;
     }
   }
 }
 
 // grand ecran mobile
-@media screen and (min-width:480px) {
-  .structure {
-    padding: 20px;
-
-    .posi_div_secondaire img {
-      width: 49%;
-    }
-  }
-}
+// @media screen and (min-width:480px) {}
 
 // version tablette
-@media screen and (min-width:767px) {
-  .structure {
-    .posi_div_princial img {
-      width: 100%;
-      height: 300px;
-    }
-
-    .posi_div_secondaire {
-      img {
-        width: 50%;
-        height: 250px;
-      }
-    }
-
-    .dispo_information p {
-      font-size: 18px;
-    }
-  }
-}
+// @media screen and (min-width:767px) {}
 
 // version desktop full hd
-@media screen and (min-width:1024px) {
-  .structure {
-    .posi_div_princial img {
-      width: 99%;
-      height: 400px;
-    }
-
-    .posi_div_secondaire {
-      img {
-        width: 49%;
-        height: 400px;
-      }
-    }
-  }
-}
+// @media screen and (min-width:1024px) {}
 
 // version desktop 2k et plus
 @media screen and (min-width:1920px) {
-  .structure {
-    .posi_div_princial img {
-      width: 100%;
-      height: 600px;
-    }
-
-    .posi_div_secondaire {
-      img {
-        width: 50%;
-        height: 600px;
-      }
-    }
+  .container_card {
+    margin: 300px 0px 335px;
   }
 }

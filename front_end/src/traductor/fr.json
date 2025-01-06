@@ -1,151 +1,92 @@
-  {
-    "navbar":{
-      "title1": "Profil",
-      "title2": "Mes Projets",
-      "title3": "Contact"
-    },
-    "presentation":{
-     "description": "Je m’appelle Cédric, j’ai 27 ans, et j’ai effectué un parcours de formation professionnelle de développeur informatique d’une durée de 11 mois pour le poste de développeur front end." 
-    },
-    "competence":{
-      "description":"Mes Compétences"
-    },
-    "footer":{
-      "title": "Coordonnées",
-      "number": "06 12 26 76 70",
-      "mail": "cedric-developpeur-web@laposte.net",
-      "webgithub":"https://github.com/cedric-developpeur-web?tab=repositories",
-      "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-b17253295/"
-    },
-    "projet":{
-      "description":"Mes Projets",
-      "titleQr": "Partager ce site"
-    },
-    "projets":[
+{
+  "navbar":{
+    "title1": "Profil",
+    "title2": "Mes Projets",
+    "title3": "Contact"
+  },
+  "presentation":{
+    "description": "Je suis Cédric, à la recherche active d’un poste de développeur web frontend pour mettre à profit les compétences acquises durant cette formation. Suite à cette formation effectuée d’une durée de 11 mois en tant que développeur web frontend avec obtention du diplôme de niveau BAC +2, les types de contrat recherchés sont un CDI ou CDD." 
+  },
+  "competence":{
+    "description":"Mes Compétences"
+  },
+  "footer":{
+    "title": "Coordonnées",
+    "number": "06 12 26 76 70",
+    "mail": "cedric-developpeur-web@laposte.net",
+    "webgithub":"https://github.com/cedric-developpeur-web?tab=repositories",
+    "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-435931344/"
+  },
+  "projet":{
+    "description":"Mes Projets",
+    "titleQr": "Partager ce site"
+  },
+    
+  "next":"Retour à l'accueil",
+
+  "projets":[
     {
-      "id":"cv1njdn",
-      "title":"Javascript Sophie Bluel",
-      "tag":"Sophie Bluel",
-      "next":"Retour aux projets",
-      "link":"lien projet github",
-      "weblink":"https://github.com/cedric-developpeur-web/Javascript_SophieBuel",
-      "information":"Je vous présente le projet Sophie Bluel avec une briève introduction qui décrit le but du site Internet développé pour la photographe freelance Nina Carducci. Le site internet propose l’ajout de photographies en affichant une galerie par catégorie des images mises sur son site, cela permet au utilisateur de se connecter à leur compte pour mettre en avant leur propre galerie des photographies qu’ils ont prises, mais il propose aussi la suppression de leur photographie pour mieux alimenter et garantir une meilleure gestion du travail, il peut ainsi les ajouter aux catégories présélectionnées qui leur sont proposées pour une meilleure organisation et visibilité de leur réalisation.",
+      "id":"a1",
+      "title":"Riding Citites",
+      "description":"Site web d'une association de skate, fait en HTML et CSS (non responsive)",
+      "tag":"Visiter le site web",
+      "link":"https://cedric-developpeur-web.github.io/HtlmCss_RidingCitites-formation-/",
       "miniPicture":[
         {
-          "src": "/assets/javascript_sophieBluel.webp",
-          "alt": "image du projet sophie bluel javascript"
-        }
-      ],
-      "image":[
-        {
-         "src": "/assets/accueil_sophiebluel.webp",
-         "alt": "Image du site internet de Nina Carducci photographe freelance."
-        }
-      ],
-      "images":[
-        {
-         "src": "/assets/galerie_sophiebluel.webp",
-         "alt": "Affichage de la galerie d'images de la photographe."
-        },
-         {
-         "src": "/assets/ajout_photo_sophiebluel.webp",
-         "alt": "Image qui montre qu'on peut ajouter des images au format JGP et PNG d'une taille de 4 Mo maximum."
-        }
-      ],
-      "picture": [
-        {
-         "src": "/assets/logo_javascript.webp",
-         "alt": "Logo Javascript"
-        },
-        {
-         "src": "/assets/logo_html.webp",
-         "alt": "Logo Html"
+          "src": "/assets/RidingCitites.webp",
+          "alt": "Image du projet RidingCities"
         }
       ]
     },
     {
-      "id":"fds2fsj",
-      "title":"React Kasa",
-      "tag":"Kasa",
-      "next":"Retour aux projets",
-      "link":"lien projet github",
-      "weblink":"https://github.com/cedric-developpeur-web/ReactNative_Kasa",
-      "information":"Je vous présente le projet Kasa avec une briève introduction qui décrit le but du site Internet développé pour une agence de location de logement. Ce site propose des locations de logements près de chez les clients et bien plus encore. Quand on sélectionne un logement, on se retrouve rediriger sur une page où on nous présente le logement en proposant des images de celui-ci dans un slider, on peut aussi retrouver sa localité exacte du logement avec une description de ce qui est autour du logement (exemple : où se trouve le métro le plus proche, le magasin ou restaurant en indiquant les distances…), nous retrouvons aussi la note attribuée à ce logement : on peut savoir les équipements que possède ce logement exemple : frigo, wifi...",
+      "id":"a2",
+      "title":"Booki",
+      "description":"Site web d'une agence de voyage, fait en HTML et CSS (responsive)",
+      "tag":"Visiter le site web",
+      "link":"https://cedric-developpeur-web.github.io/HtmlCss_Booki-formation/",
       "miniPicture":[
         {
-          "src": "/assets/ReactCra_kasa.webp",
-          "alt": "image du projet kasa react avec cra"
-        }
-      ],
-      "image":[
-        {
-         "src": "/assets/accueil_kasa.webp",
-         "alt": "Image montrant la page d’accueil du site internet Kasa qui montrent les logements à côté de chez vous."
-        }
-      ],
-      "images":[
-        {
-         "src": "/assets/information_kasa.webp",
-         "alt": "Image qui montre les détails des critères de fiabilité des annonces proposées."
-        },
-         {
-         "src": "/assets/logement_kasa.webp",
-         "alt": "Image montrant le logement choisi avec toutes les informations nécessaires comme un slider d’image, les notes attribuées par les clients, les équipements que dispose ce logement et sa localité."
-        }
-      ],
-      "picture": [
-           {
-         "src": "/assets/logo_javascript.webp",
-         "alt": "Logo Javascript"
-        },
-        {
-         "src": "/assets/React_Native_Logo.webp",
-         "alt": "Logo React Native"
+          "src": "/assets/Booki.webp",
+          "alt": "image du projet Booki"
         }
       ]
     },
     {
-      "id":"fds3gfs",
-      "title":"React avec Vite ArgentBank",
-      "tag":"ArgenBank",
-      "next":"Retour aux projets",
-      "link":"lien projet github",
-      "weblink":"https://github.com/cedric-developpeur-web/ReactVite_ArgentBank",
-      "information":"Je vous présente le projet ArgentBank avec une briève introduction qui décrit le but du site Internet développé pour une agence bancaire, traduit en anglais. Elle propose à ces clients de se connecter à leur compte et les clients peuvent modifier leur pseudo uniquement grâce à un formulaire d’édition qui permet de modifier ou d’annuler le pseudo. Ils pourront aussi visualiser les différents soldes sur leur compte.",
+      "id":"a3",
+      "title":"OhMyFood",
+      "description":"Site web de réservation pour la restauration, fait en HTML SASS (responsive)",
+      "tag":"Visiter le site web",
+      "link":"https://cedric-developpeur-web.github.io/Ohmyfood_formation/",
       "miniPicture":[
         {
-          "src": "/assets/ReactVite_argentBank.webp",
-          "alt": "image du projet argent bank react avec vite"
+          "src": "/assets/Ohmyfood.webp",
+          "alt": "image du projet Ohmyfood"
         }
-      ],
-      "image":[
+      ]
+    },
+    {
+      "id":"a4",
+      "title":"Prin It",
+      "description":"Site web pour une entreprise d'imprimerie, HTML,CSS, JAVASCRIPT (non responsive)",
+      "tag":"Visiter le site web",
+      "link":"https://cedric-developpeur-web.github.io/Javascript_Print_it_formation/",
+      "miniPicture":[
         {
-         "src": "/assets/accueil_argentbank.webp",
-         "alt": "Image montrant le site d’une agence bancaire traduite en anglais."
+          "src": "/assets/Print_it.webp",
+          "alt": "image du projet Print it"
         }
-      ],
-      "images":[
+      ]
+    },
+    {
+      "id":"a5",
+      "title":"Nina Carducci",
+      "description":"Site web d'une photographe freelance, pratique SEO (non responsive)",
+      "tag":"Visiter le site web",
+      "link":"https://cedric-developpeur-web.github.io/Seo_NinaCarducci_formation/",
+      "miniPicture":[
         {
-         "src": "/assets/formulaire_argentbank.webp",
-         "alt": "Image montrant un formulaire où l’on peut modifier le pseudo donnée de votre espace client avec les différents solde que le client possède."
-        },
-         {
-         "src": "/assets/login_argentbank.webp",
-         "alt": "Image montrant l’interface de connexion pour que l’utilisateur se connecte en rentrant un e-mail et un mot de passe."
-         }
-      ],
-      "picture": [
-        {
-         "src": "/assets/logo_javascript.webp",
-         "alt": "Logo Javascript"
-        },
-        {
-         "src":"/assets/React_Native_Logo.webp",
-         "alt":"Logo React Native"
-        },
-        {
-          "src": "/assets/logo_vitejs.webp",
-          "alt": "Logo Builder Vite"
+          "src": "/assets/NinaCarducci.webp",
+          "alt": "image du projet Nina Carducci"
         }
       ]
     }
