@@ -1,11 +1,10 @@
 {
   "navbar":{
-    "title1": "Profil",
     "title2": "Mes Projets",
     "title3": "Contact"
   },
   "presentation":{
-    "description": "Je suis Cédric, à la recherche active d’un poste de développeur web frontend pour mettre à profit les compétences acquises durant cette formation. Suite à cette formation effectuée d’une durée de 11 mois en tant que développeur web frontend avec obtention du diplôme de niveau BAC +2, les types de contrat recherchés sont un CDI ou CDD." 
+    "description": "Je suis Cédric, développeur web front end junior, à la recherche active d’un poste de développeur web frontend pour mettre à profit les compétences acquises durant cette formation. Suite à cette formation effectuée d’une durée de 11 mois en tant que développeur web frontend avec obtention du diplôme de niveau BAC +2, les types de contrat recherchés sont un CDI ou CDD" 
   },
   "competence":{
     "description":"Mes Compétences"
@@ -14,6 +13,7 @@
     "title": "Coordonnées",
     "number": "06 12 26 76 70",
     "mail": "cedric-developpeur-web@laposte.net",
+    "fileCv":"Visualisez mon CV",
     "webgithub":"https://github.com/cedric-developpeur-web?tab=repositories",
     "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-435931344/"
   },

@@ -1,11 +1,10 @@
 {
   "navbar":{
-    "title1": "Profile",
     "title2": "Projects",
     "title3": "Contact"
   },
   "presentation":{
-    "description": "I'm Cédric, and I'm actively looking for a job as a front-end web developer to put the skills I've learnt on this course to good use. After completing 11 months' training as a front-end web developer and obtaining a BAC +2 diploma, I'm looking for a permanent or fixed-term contract." 
+    "description": "I'm Cédric, a junior front-end web developer, who's actively looking for a job as a front-end web developer to put the skills I've learnt on this course to good use. After completing 11 months' training as a front-end web developer and obtaining a BAC +2 diploma, I'm looking for a permanent or fixed-term contract." 
   },
   "competence":{
     "description":"Skills"
@@ -14,6 +13,7 @@
     "title": "Contact info",
     "number": "06 12 26 76 70",
     "mail": "cedric-developpeur-web@laposte.net",
+    "fileCv":"View my CV",
     "webgithub":"https://github.com/cedric-developpeur-web?tab=repositories",
     "weblinkedin":"https://www.linkedin.com/in/cedric-cocq-435931344/"
   },

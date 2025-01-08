@@ -29,14 +29,14 @@ const Footer = () => {
           <i className="fa-solid fa-at"></i>
           <a href={`mailto:${data.mail}`} alt='adresse mail pour me contacter' target='blank' rel='noopener noreferrer'>{data.mail}</a>
         </div>
+        <div className='file_cv'>
+          <i className="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          <a href='/assets/CV_developpeur.pdf' aria-label='ouvrir mon CV au format PDF' target='blank' rel='noopener noreferrer'>{t(`footer.fileCv`)}</a>
+        </div>
       </div>
       <div className='dispo_button'>
         <i onClick={github} className="fa-brands fa-github"></i>
         <i onClick={linkedin} className="fa-brands fa-linkedin"></i>
-        <a href='/assets/CV_developpeur.pdf' aria-label='ouvrir mon CV au format PDF' target='blank' rel='noopener noreferrer'>
-          <i className="fa-solid fa-file-pdf" aria-hidden="true"></i>
-          <span>ouvrir mon CV au format PDF</span>
-        </a>
       </div>
     </footer>
   );
