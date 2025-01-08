@@ -7,14 +7,33 @@ const Skills = () => {
   const { t } = useTranslation();
   ;
   return (
-    <section id='skill'>
-      <h2>{t('competence.description')}</h2>
-      <div className='posi_skills'>
-        <img src='/assets/logo_javascript.webp' alt="logo javascript" />
-        <img src='/assets/React_Native_Logo.webp' alt="logo react native" />
-        <img src='/assets/logo_vitejs.webp' alt="logo react vite" />
+    <>
+      <span><h2>Compétence niveau débutant</h2></span>
+      <div className='skill'>
+        <article>
+          <h3>Langages déclaratifs</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Langage de programmation</h3>
+          <ul>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Framework Build</h3>
+          <ul>
+            <li>React</li>
+            <li>Vite</li>
+            <li>Redux</li>
+          </ul>
+        </article>
       </div>
-    </section>
+    </>
   );
 };
 
