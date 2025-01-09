@@ -17,20 +17,16 @@
 // version tablette
 @media screen and (min-width:767px) {
   .posi_QR {
-    margin: 50px;
+    margin: 55px auto;
   }
 }
 
 // version desktop full hd
-@media screen and (min-width:1024px) {
-  .posi_QR {
-    margin: 40px;
-  }
-}
+// @media screen and (min-width:1024px) {}
 
 //version desktop large ecran 2k et plus
 @media screen and (min-width:1920px) {
   .posi_QR {
-    margin: 105px;
+    margin: 130px auto;
   }
 }

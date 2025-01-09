@@ -90,5 +90,27 @@
         }
       ]
     }
+  ],
+  "skill":[
+    {
+      "id":"b1",
+      "title":"Declarative languages",
+      "competence":["HTML","CSS","SASS"]
+    },
+    {
+      "id":"b2",
+      "title":"Programming language",
+      "competence":["JavaScript"]
+    },
+    {
+      "id":"b3",
+      "title":"Framework Build",
+      "competence":["React","Vite","Redux"]
+    },
+    {
+      "id":"b4",
+      "title":"Content Management System",
+      "competence":["WordPress"]
+    }
   ]
 }

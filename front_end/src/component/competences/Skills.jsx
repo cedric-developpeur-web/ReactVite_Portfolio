@@ -5,33 +5,22 @@ import './skill.scss';
 
 const Skills = () => {
   const { t } = useTranslation();
+  const skills = t("skill", { returnObjects: true });
   ;
   return (
     <>
       <span><h2>Compétence niveau débutant</h2></span>
       <div className='skill'>
-        <article>
-          <h3>Langages déclaratifs</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Langage de programmation</h3>
-          <ul>
-            <li>JavaScript</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Framework Build</h3>
-          <ul>
-            <li>React</li>
-            <li>Vite</li>
-            <li>Redux</li>
-          </ul>
-        </article>
+        {skills.map((e) => (
+          <article key={e.id}>
+            <h3>{t(e.title)}</h3>
+            <ul>
+              {e.competence.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
       </div>
     </>
   );
