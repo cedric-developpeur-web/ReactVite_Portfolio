@@ -35,24 +35,26 @@
   margin: 50px 0px 70px;
 
   .card {
-    width: 300px;
+    width: 100%;
     height: 370px;
-    background: $degrader_main;
+    background: #291F43;
     border-radius: 42px 42px 10px 10px;
-    border-bottom: solid 7.4px #291F43;
+    border-bottom: solid 7.4px #92549C;
     transform: scale(0.85);
     // background: $degrader_main;
     // Agrandit pour un effet de déplacement fluide
-    background-size: 180% 180%;
+    // background-size: 120% 200%;
     // Lance l'animation
-    animation: gradientAnimation 1.2s ease infinite;
+    // animation: gradientAnimation 2.5s ease infinite;
   }
 
   img {
-    width: 300px;
+    width: 100%;
     height: 180px;
     border-radius: 40px 40px 0px 0px;
     border-bottom: solid 2px #473876;
+    object-fit: cover;
+    object-position: 30% 50%;
   }
 
   h3 {
@@ -86,17 +88,37 @@
 }
 
 // grand ecran mobile
-// @media screen and (min-width:480px) {}
+@media screen and (min-width:480px) {
+  .container_card .card {
+    width: 70%;
+  }
+}
 
 // version tablette
-// @media screen and (min-width:767px) {}
+@media screen and (min-width:767px) {
+  .container_card .card {
+    width: 45%;
+  }
+}
 
 // version desktop full hd
-// @media screen and (min-width:1024px) {}
+@media screen and (min-width:1024px) {
+  .container_card .card {
+    width: 20%;
+  }
+
+  .container_card img {
+    width: 100%;
+  }
+}
 
 // version desktop 2k et plus
 @media screen and (min-width:1920px) {
   .container_card {
     margin: 300px 0px 335px;
+
+    .card {
+      width: 15%;
+    }
   }
 }

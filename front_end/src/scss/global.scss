@@ -32,9 +32,9 @@ main {
     // Dégradé de couleurs jade, bleu, jaune, et orange
     background: $degrader_main;
     // Agrandit pour un effet de déplacement fluide
-    background-size: 200% 200%;
+    background-size: 200% 180%;
     // Lance l'animation
-    animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 3s ease infinite;
 
     // Place en arrière-plan
     z-index: 0;
